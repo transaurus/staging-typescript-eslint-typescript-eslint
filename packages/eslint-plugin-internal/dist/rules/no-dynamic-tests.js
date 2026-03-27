@@ -1,0 +1,107 @@
+import { AST_NODE_TYPES } from '@typescript-eslint/utils';
+import { getRuleTesterCallObject } from '../util/getRuleTesterCallObject.js';
+import { createRule } from '../util/index.js';
+export default createRule({
+    name: 'no-dynamic-tests',
+    meta: {
+        type: 'problem',
+        docs: {
+            description: 'Disallow dynamic syntax in RuleTester test arrays',
+        },
+        messages: {
+            noDynamicTests: 'Dynamic syntax is not allowed in RuleTester test arrays. Use static values only.',
+        },
+        schema: [],
+    },
+    defaultOptions: [],
+    create(context) {
+        function reportDynamicElements(node) {
+            switch (node.type) {
+                case AST_NODE_TYPES.CallExpression:
+                case AST_NODE_TYPES.SpreadElement:
+                case AST_NODE_TYPES.Identifier:
+                case AST_NODE_TYPES.BinaryExpression:
+                case AST_NODE_TYPES.ConditionalExpression:
+                case AST_NODE_TYPES.MemberExpression:
+                    context.report({
+                        node,
+                        messageId: 'noDynamicTests',
+                    });
+                    break;
+                case AST_NODE_TYPES.TemplateLiteral:
+                    node.expressions.forEach(expr => {
+                        reportDynamicElements(expr);
+                    });
+                    break;
+                case AST_NODE_TYPES.ArrayExpression:
+                    node.elements.forEach(element => {
+                        if (element) {
+                            reportDynamicElements(element);
+                        }
+                    });
+                    break;
+                case AST_NODE_TYPES.ObjectExpression:
+                    node.properties.forEach(prop => {
+                        if (prop.type === AST_NODE_TYPES.SpreadElement) {
+                            context.report({
+                                node: prop,
+                                messageId: 'noDynamicTests',
+                            });
+                        }
+                        else {
+                            const keyToValidate = ['code', 'errors'];
+                            if (prop.key.type === AST_NODE_TYPES.Identifier &&
+                                keyToValidate.includes(prop.key.name)) {
+                                reportDynamicElements(prop.value);
+                            }
+                            else if (prop.key.type === AST_NODE_TYPES.Literal &&
+                                keyToValidate.includes(prop.key.value)) {
+                                reportDynamicElements(prop.value);
+                            }
+                        }
+                    });
+                    break;
+                case AST_NODE_TYPES.TaggedTemplateExpression:
+                    if (!(node.tag.type === AST_NODE_TYPES.Identifier &&
+                        node.tag.name === 'noFormat')) {
+                        context.report({
+                            node: node.tag,
+                            messageId: 'noDynamicTests',
+                        });
+                    }
+                    break;
+                case AST_NODE_TYPES.Literal:
+                default:
+                    break;
+            }
+        }
+        return {
+            CallExpression(node) {
+                const testObject = getRuleTesterCallObject(node);
+                if (!testObject) {
+                    return;
+                }
+                for (const prop of testObject.properties) {
+                    const isTestCases = prop.type === AST_NODE_TYPES.Property &&
+                        prop.key.type === AST_NODE_TYPES.Identifier &&
+                        (prop.key.name === 'valid' || prop.key.name === 'invalid');
+                    if (isTestCases) {
+                        if (prop.value.type === AST_NODE_TYPES.ArrayExpression) {
+                            prop.value.elements.forEach(element => {
+                                if (element) {
+                                    reportDynamicElements(element);
+                                }
+                            });
+                        }
+                        else {
+                            context.report({
+                                node: prop.value,
+                                messageId: 'noDynamicTests',
+                            });
+                        }
+                    }
+                }
+            },
+        };
+    },
+});

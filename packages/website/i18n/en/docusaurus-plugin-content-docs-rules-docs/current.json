@@ -1,0 +1,546 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.rulesSidebar.category.Rules": {
+    "message": "Rules",
+    "description": "The label for category Rules in sidebar rulesSidebar"
+  },
+  "sidebar.rulesSidebar.doc.adjacent-overload-signatures": {
+    "message": "adjacent-overload-signatures",
+    "description": "The label for the doc item adjacent-overload-signatures in sidebar rulesSidebar, linking to the doc adjacent-overload-signatures"
+  },
+  "sidebar.rulesSidebar.doc.array-type": {
+    "message": "array-type",
+    "description": "The label for the doc item array-type in sidebar rulesSidebar, linking to the doc array-type"
+  },
+  "sidebar.rulesSidebar.doc.await-thenable": {
+    "message": "await-thenable",
+    "description": "The label for the doc item await-thenable in sidebar rulesSidebar, linking to the doc await-thenable"
+  },
+  "sidebar.rulesSidebar.doc.ban-ts-comment": {
+    "message": "ban-ts-comment",
+    "description": "The label for the doc item ban-ts-comment in sidebar rulesSidebar, linking to the doc ban-ts-comment"
+  },
+  "sidebar.rulesSidebar.doc.ban-tslint-comment": {
+    "message": "ban-tslint-comment",
+    "description": "The label for the doc item ban-tslint-comment in sidebar rulesSidebar, linking to the doc ban-tslint-comment"
+  },
+  "sidebar.rulesSidebar.doc.class-literal-property-style": {
+    "message": "class-literal-property-style",
+    "description": "The label for the doc item class-literal-property-style in sidebar rulesSidebar, linking to the doc class-literal-property-style"
+  },
+  "sidebar.rulesSidebar.doc.class-methods-use-this": {
+    "message": "class-methods-use-this",
+    "description": "The label for the doc item class-methods-use-this in sidebar rulesSidebar, linking to the doc class-methods-use-this"
+  },
+  "sidebar.rulesSidebar.doc.consistent-generic-constructors": {
+    "message": "consistent-generic-constructors",
+    "description": "The label for the doc item consistent-generic-constructors in sidebar rulesSidebar, linking to the doc consistent-generic-constructors"
+  },
+  "sidebar.rulesSidebar.doc.consistent-indexed-object-style": {
+    "message": "consistent-indexed-object-style",
+    "description": "The label for the doc item consistent-indexed-object-style in sidebar rulesSidebar, linking to the doc consistent-indexed-object-style"
+  },
+  "sidebar.rulesSidebar.doc.consistent-return": {
+    "message": "consistent-return",
+    "description": "The label for the doc item consistent-return in sidebar rulesSidebar, linking to the doc consistent-return"
+  },
+  "sidebar.rulesSidebar.doc.consistent-type-assertions": {
+    "message": "consistent-type-assertions",
+    "description": "The label for the doc item consistent-type-assertions in sidebar rulesSidebar, linking to the doc consistent-type-assertions"
+  },
+  "sidebar.rulesSidebar.doc.consistent-type-definitions": {
+    "message": "consistent-type-definitions",
+    "description": "The label for the doc item consistent-type-definitions in sidebar rulesSidebar, linking to the doc consistent-type-definitions"
+  },
+  "sidebar.rulesSidebar.doc.consistent-type-exports": {
+    "message": "consistent-type-exports",
+    "description": "The label for the doc item consistent-type-exports in sidebar rulesSidebar, linking to the doc consistent-type-exports"
+  },
+  "sidebar.rulesSidebar.doc.consistent-type-imports": {
+    "message": "consistent-type-imports",
+    "description": "The label for the doc item consistent-type-imports in sidebar rulesSidebar, linking to the doc consistent-type-imports"
+  },
+  "sidebar.rulesSidebar.doc.default-param-last": {
+    "message": "default-param-last",
+    "description": "The label for the doc item default-param-last in sidebar rulesSidebar, linking to the doc default-param-last"
+  },
+  "sidebar.rulesSidebar.doc.dot-notation": {
+    "message": "dot-notation",
+    "description": "The label for the doc item dot-notation in sidebar rulesSidebar, linking to the doc dot-notation"
+  },
+  "sidebar.rulesSidebar.doc.explicit-function-return-type": {
+    "message": "explicit-function-return-type",
+    "description": "The label for the doc item explicit-function-return-type in sidebar rulesSidebar, linking to the doc explicit-function-return-type"
+  },
+  "sidebar.rulesSidebar.doc.explicit-member-accessibility": {
+    "message": "explicit-member-accessibility",
+    "description": "The label for the doc item explicit-member-accessibility in sidebar rulesSidebar, linking to the doc explicit-member-accessibility"
+  },
+  "sidebar.rulesSidebar.doc.explicit-module-boundary-types": {
+    "message": "explicit-module-boundary-types",
+    "description": "The label for the doc item explicit-module-boundary-types in sidebar rulesSidebar, linking to the doc explicit-module-boundary-types"
+  },
+  "sidebar.rulesSidebar.doc.init-declarations": {
+    "message": "init-declarations",
+    "description": "The label for the doc item init-declarations in sidebar rulesSidebar, linking to the doc init-declarations"
+  },
+  "sidebar.rulesSidebar.doc.max-params": {
+    "message": "max-params",
+    "description": "The label for the doc item max-params in sidebar rulesSidebar, linking to the doc max-params"
+  },
+  "sidebar.rulesSidebar.doc.member-ordering": {
+    "message": "member-ordering",
+    "description": "The label for the doc item member-ordering in sidebar rulesSidebar, linking to the doc member-ordering"
+  },
+  "sidebar.rulesSidebar.doc.method-signature-style": {
+    "message": "method-signature-style",
+    "description": "The label for the doc item method-signature-style in sidebar rulesSidebar, linking to the doc method-signature-style"
+  },
+  "sidebar.rulesSidebar.doc.naming-convention": {
+    "message": "naming-convention",
+    "description": "The label for the doc item naming-convention in sidebar rulesSidebar, linking to the doc naming-convention"
+  },
+  "sidebar.rulesSidebar.doc.no-array-constructor": {
+    "message": "no-array-constructor",
+    "description": "The label for the doc item no-array-constructor in sidebar rulesSidebar, linking to the doc no-array-constructor"
+  },
+  "sidebar.rulesSidebar.doc.no-array-delete": {
+    "message": "no-array-delete",
+    "description": "The label for the doc item no-array-delete in sidebar rulesSidebar, linking to the doc no-array-delete"
+  },
+  "sidebar.rulesSidebar.doc.no-base-to-string": {
+    "message": "no-base-to-string",
+    "description": "The label for the doc item no-base-to-string in sidebar rulesSidebar, linking to the doc no-base-to-string"
+  },
+  "sidebar.rulesSidebar.doc.no-confusing-non-null-assertion": {
+    "message": "no-confusing-non-null-assertion",
+    "description": "The label for the doc item no-confusing-non-null-assertion in sidebar rulesSidebar, linking to the doc no-confusing-non-null-assertion"
+  },
+  "sidebar.rulesSidebar.doc.no-confusing-void-expression": {
+    "message": "no-confusing-void-expression",
+    "description": "The label for the doc item no-confusing-void-expression in sidebar rulesSidebar, linking to the doc no-confusing-void-expression"
+  },
+  "sidebar.rulesSidebar.doc.no-deprecated": {
+    "message": "no-deprecated",
+    "description": "The label for the doc item no-deprecated in sidebar rulesSidebar, linking to the doc no-deprecated"
+  },
+  "sidebar.rulesSidebar.doc.no-dupe-class-members": {
+    "message": "no-dupe-class-members",
+    "description": "The label for the doc item no-dupe-class-members in sidebar rulesSidebar, linking to the doc no-dupe-class-members"
+  },
+  "sidebar.rulesSidebar.doc.no-duplicate-enum-values": {
+    "message": "no-duplicate-enum-values",
+    "description": "The label for the doc item no-duplicate-enum-values in sidebar rulesSidebar, linking to the doc no-duplicate-enum-values"
+  },
+  "sidebar.rulesSidebar.doc.no-duplicate-type-constituents": {
+    "message": "no-duplicate-type-constituents",
+    "description": "The label for the doc item no-duplicate-type-constituents in sidebar rulesSidebar, linking to the doc no-duplicate-type-constituents"
+  },
+  "sidebar.rulesSidebar.doc.no-dynamic-delete": {
+    "message": "no-dynamic-delete",
+    "description": "The label for the doc item no-dynamic-delete in sidebar rulesSidebar, linking to the doc no-dynamic-delete"
+  },
+  "sidebar.rulesSidebar.doc.no-empty-function": {
+    "message": "no-empty-function",
+    "description": "The label for the doc item no-empty-function in sidebar rulesSidebar, linking to the doc no-empty-function"
+  },
+  "sidebar.rulesSidebar.doc.no-empty-interface": {
+    "message": "no-empty-interface",
+    "description": "The label for the doc item no-empty-interface in sidebar rulesSidebar, linking to the doc no-empty-interface"
+  },
+  "sidebar.rulesSidebar.doc.no-empty-object-type": {
+    "message": "no-empty-object-type",
+    "description": "The label for the doc item no-empty-object-type in sidebar rulesSidebar, linking to the doc no-empty-object-type"
+  },
+  "sidebar.rulesSidebar.doc.no-explicit-any": {
+    "message": "no-explicit-any",
+    "description": "The label for the doc item no-explicit-any in sidebar rulesSidebar, linking to the doc no-explicit-any"
+  },
+  "sidebar.rulesSidebar.doc.no-extra-non-null-assertion": {
+    "message": "no-extra-non-null-assertion",
+    "description": "The label for the doc item no-extra-non-null-assertion in sidebar rulesSidebar, linking to the doc no-extra-non-null-assertion"
+  },
+  "sidebar.rulesSidebar.doc.no-extraneous-class": {
+    "message": "no-extraneous-class",
+    "description": "The label for the doc item no-extraneous-class in sidebar rulesSidebar, linking to the doc no-extraneous-class"
+  },
+  "sidebar.rulesSidebar.doc.no-floating-promises": {
+    "message": "no-floating-promises",
+    "description": "The label for the doc item no-floating-promises in sidebar rulesSidebar, linking to the doc no-floating-promises"
+  },
+  "sidebar.rulesSidebar.doc.no-for-in-array": {
+    "message": "no-for-in-array",
+    "description": "The label for the doc item no-for-in-array in sidebar rulesSidebar, linking to the doc no-for-in-array"
+  },
+  "sidebar.rulesSidebar.doc.no-implied-eval": {
+    "message": "no-implied-eval",
+    "description": "The label for the doc item no-implied-eval in sidebar rulesSidebar, linking to the doc no-implied-eval"
+  },
+  "sidebar.rulesSidebar.doc.no-import-type-side-effects": {
+    "message": "no-import-type-side-effects",
+    "description": "The label for the doc item no-import-type-side-effects in sidebar rulesSidebar, linking to the doc no-import-type-side-effects"
+  },
+  "sidebar.rulesSidebar.doc.no-inferrable-types": {
+    "message": "no-inferrable-types",
+    "description": "The label for the doc item no-inferrable-types in sidebar rulesSidebar, linking to the doc no-inferrable-types"
+  },
+  "sidebar.rulesSidebar.doc.no-invalid-this": {
+    "message": "no-invalid-this",
+    "description": "The label for the doc item no-invalid-this in sidebar rulesSidebar, linking to the doc no-invalid-this"
+  },
+  "sidebar.rulesSidebar.doc.no-invalid-void-type": {
+    "message": "no-invalid-void-type",
+    "description": "The label for the doc item no-invalid-void-type in sidebar rulesSidebar, linking to the doc no-invalid-void-type"
+  },
+  "sidebar.rulesSidebar.doc.no-loop-func": {
+    "message": "no-loop-func",
+    "description": "The label for the doc item no-loop-func in sidebar rulesSidebar, linking to the doc no-loop-func"
+  },
+  "sidebar.rulesSidebar.doc.no-loss-of-precision": {
+    "message": "no-loss-of-precision",
+    "description": "The label for the doc item no-loss-of-precision in sidebar rulesSidebar, linking to the doc no-loss-of-precision"
+  },
+  "sidebar.rulesSidebar.doc.no-magic-numbers": {
+    "message": "no-magic-numbers",
+    "description": "The label for the doc item no-magic-numbers in sidebar rulesSidebar, linking to the doc no-magic-numbers"
+  },
+  "sidebar.rulesSidebar.doc.no-meaningless-void-operator": {
+    "message": "no-meaningless-void-operator",
+    "description": "The label for the doc item no-meaningless-void-operator in sidebar rulesSidebar, linking to the doc no-meaningless-void-operator"
+  },
+  "sidebar.rulesSidebar.doc.no-misused-new": {
+    "message": "no-misused-new",
+    "description": "The label for the doc item no-misused-new in sidebar rulesSidebar, linking to the doc no-misused-new"
+  },
+  "sidebar.rulesSidebar.doc.no-misused-promises": {
+    "message": "no-misused-promises",
+    "description": "The label for the doc item no-misused-promises in sidebar rulesSidebar, linking to the doc no-misused-promises"
+  },
+  "sidebar.rulesSidebar.doc.no-misused-spread": {
+    "message": "no-misused-spread",
+    "description": "The label for the doc item no-misused-spread in sidebar rulesSidebar, linking to the doc no-misused-spread"
+  },
+  "sidebar.rulesSidebar.doc.no-mixed-enums": {
+    "message": "no-mixed-enums",
+    "description": "The label for the doc item no-mixed-enums in sidebar rulesSidebar, linking to the doc no-mixed-enums"
+  },
+  "sidebar.rulesSidebar.doc.no-namespace": {
+    "message": "no-namespace",
+    "description": "The label for the doc item no-namespace in sidebar rulesSidebar, linking to the doc no-namespace"
+  },
+  "sidebar.rulesSidebar.doc.no-non-null-asserted-nullish-coalescing": {
+    "message": "no-non-null-asserted-nullish-coalescing",
+    "description": "The label for the doc item no-non-null-asserted-nullish-coalescing in sidebar rulesSidebar, linking to the doc no-non-null-asserted-nullish-coalescing"
+  },
+  "sidebar.rulesSidebar.doc.no-non-null-asserted-optional-chain": {
+    "message": "no-non-null-asserted-optional-chain",
+    "description": "The label for the doc item no-non-null-asserted-optional-chain in sidebar rulesSidebar, linking to the doc no-non-null-asserted-optional-chain"
+  },
+  "sidebar.rulesSidebar.doc.no-non-null-assertion": {
+    "message": "no-non-null-assertion",
+    "description": "The label for the doc item no-non-null-assertion in sidebar rulesSidebar, linking to the doc no-non-null-assertion"
+  },
+  "sidebar.rulesSidebar.doc.no-redeclare": {
+    "message": "no-redeclare",
+    "description": "The label for the doc item no-redeclare in sidebar rulesSidebar, linking to the doc no-redeclare"
+  },
+  "sidebar.rulesSidebar.doc.no-redundant-type-constituents": {
+    "message": "no-redundant-type-constituents",
+    "description": "The label for the doc item no-redundant-type-constituents in sidebar rulesSidebar, linking to the doc no-redundant-type-constituents"
+  },
+  "sidebar.rulesSidebar.doc.no-require-imports": {
+    "message": "no-require-imports",
+    "description": "The label for the doc item no-require-imports in sidebar rulesSidebar, linking to the doc no-require-imports"
+  },
+  "sidebar.rulesSidebar.doc.no-restricted-imports": {
+    "message": "no-restricted-imports",
+    "description": "The label for the doc item no-restricted-imports in sidebar rulesSidebar, linking to the doc no-restricted-imports"
+  },
+  "sidebar.rulesSidebar.doc.no-restricted-types": {
+    "message": "no-restricted-types",
+    "description": "The label for the doc item no-restricted-types in sidebar rulesSidebar, linking to the doc no-restricted-types"
+  },
+  "sidebar.rulesSidebar.doc.no-shadow": {
+    "message": "no-shadow",
+    "description": "The label for the doc item no-shadow in sidebar rulesSidebar, linking to the doc no-shadow"
+  },
+  "sidebar.rulesSidebar.doc.no-this-alias": {
+    "message": "no-this-alias",
+    "description": "The label for the doc item no-this-alias in sidebar rulesSidebar, linking to the doc no-this-alias"
+  },
+  "sidebar.rulesSidebar.doc.no-type-alias": {
+    "message": "no-type-alias",
+    "description": "The label for the doc item no-type-alias in sidebar rulesSidebar, linking to the doc no-type-alias"
+  },
+  "sidebar.rulesSidebar.doc.no-unnecessary-boolean-literal-compare": {
+    "message": "no-unnecessary-boolean-literal-compare",
+    "description": "The label for the doc item no-unnecessary-boolean-literal-compare in sidebar rulesSidebar, linking to the doc no-unnecessary-boolean-literal-compare"
+  },
+  "sidebar.rulesSidebar.doc.no-unnecessary-condition": {
+    "message": "no-unnecessary-condition",
+    "description": "The label for the doc item no-unnecessary-condition in sidebar rulesSidebar, linking to the doc no-unnecessary-condition"
+  },
+  "sidebar.rulesSidebar.doc.no-unnecessary-parameter-property-assignment": {
+    "message": "no-unnecessary-parameter-property-assignment",
+    "description": "The label for the doc item no-unnecessary-parameter-property-assignment in sidebar rulesSidebar, linking to the doc no-unnecessary-parameter-property-assignment"
+  },
+  "sidebar.rulesSidebar.doc.no-unnecessary-qualifier": {
+    "message": "no-unnecessary-qualifier",
+    "description": "The label for the doc item no-unnecessary-qualifier in sidebar rulesSidebar, linking to the doc no-unnecessary-qualifier"
+  },
+  "sidebar.rulesSidebar.doc.no-unnecessary-template-expression": {
+    "message": "no-unnecessary-template-expression",
+    "description": "The label for the doc item no-unnecessary-template-expression in sidebar rulesSidebar, linking to the doc no-unnecessary-template-expression"
+  },
+  "sidebar.rulesSidebar.doc.no-unnecessary-type-arguments": {
+    "message": "no-unnecessary-type-arguments",
+    "description": "The label for the doc item no-unnecessary-type-arguments in sidebar rulesSidebar, linking to the doc no-unnecessary-type-arguments"
+  },
+  "sidebar.rulesSidebar.doc.no-unnecessary-type-assertion": {
+    "message": "no-unnecessary-type-assertion",
+    "description": "The label for the doc item no-unnecessary-type-assertion in sidebar rulesSidebar, linking to the doc no-unnecessary-type-assertion"
+  },
+  "sidebar.rulesSidebar.doc.no-unnecessary-type-constraint": {
+    "message": "no-unnecessary-type-constraint",
+    "description": "The label for the doc item no-unnecessary-type-constraint in sidebar rulesSidebar, linking to the doc no-unnecessary-type-constraint"
+  },
+  "sidebar.rulesSidebar.doc.no-unnecessary-type-conversion": {
+    "message": "no-unnecessary-type-conversion",
+    "description": "The label for the doc item no-unnecessary-type-conversion in sidebar rulesSidebar, linking to the doc no-unnecessary-type-conversion"
+  },
+  "sidebar.rulesSidebar.doc.no-unnecessary-type-parameters": {
+    "message": "no-unnecessary-type-parameters",
+    "description": "The label for the doc item no-unnecessary-type-parameters in sidebar rulesSidebar, linking to the doc no-unnecessary-type-parameters"
+  },
+  "sidebar.rulesSidebar.doc.no-unsafe-argument": {
+    "message": "no-unsafe-argument",
+    "description": "The label for the doc item no-unsafe-argument in sidebar rulesSidebar, linking to the doc no-unsafe-argument"
+  },
+  "sidebar.rulesSidebar.doc.no-unsafe-assignment": {
+    "message": "no-unsafe-assignment",
+    "description": "The label for the doc item no-unsafe-assignment in sidebar rulesSidebar, linking to the doc no-unsafe-assignment"
+  },
+  "sidebar.rulesSidebar.doc.no-unsafe-call": {
+    "message": "no-unsafe-call",
+    "description": "The label for the doc item no-unsafe-call in sidebar rulesSidebar, linking to the doc no-unsafe-call"
+  },
+  "sidebar.rulesSidebar.doc.no-unsafe-declaration-merging": {
+    "message": "no-unsafe-declaration-merging",
+    "description": "The label for the doc item no-unsafe-declaration-merging in sidebar rulesSidebar, linking to the doc no-unsafe-declaration-merging"
+  },
+  "sidebar.rulesSidebar.doc.no-unsafe-enum-comparison": {
+    "message": "no-unsafe-enum-comparison",
+    "description": "The label for the doc item no-unsafe-enum-comparison in sidebar rulesSidebar, linking to the doc no-unsafe-enum-comparison"
+  },
+  "sidebar.rulesSidebar.doc.no-unsafe-function-type": {
+    "message": "no-unsafe-function-type",
+    "description": "The label for the doc item no-unsafe-function-type in sidebar rulesSidebar, linking to the doc no-unsafe-function-type"
+  },
+  "sidebar.rulesSidebar.doc.no-unsafe-member-access": {
+    "message": "no-unsafe-member-access",
+    "description": "The label for the doc item no-unsafe-member-access in sidebar rulesSidebar, linking to the doc no-unsafe-member-access"
+  },
+  "sidebar.rulesSidebar.doc.no-unsafe-return": {
+    "message": "no-unsafe-return",
+    "description": "The label for the doc item no-unsafe-return in sidebar rulesSidebar, linking to the doc no-unsafe-return"
+  },
+  "sidebar.rulesSidebar.doc.no-unsafe-type-assertion": {
+    "message": "no-unsafe-type-assertion",
+    "description": "The label for the doc item no-unsafe-type-assertion in sidebar rulesSidebar, linking to the doc no-unsafe-type-assertion"
+  },
+  "sidebar.rulesSidebar.doc.no-unsafe-unary-minus": {
+    "message": "no-unsafe-unary-minus",
+    "description": "The label for the doc item no-unsafe-unary-minus in sidebar rulesSidebar, linking to the doc no-unsafe-unary-minus"
+  },
+  "sidebar.rulesSidebar.doc.no-unused-expressions": {
+    "message": "no-unused-expressions",
+    "description": "The label for the doc item no-unused-expressions in sidebar rulesSidebar, linking to the doc no-unused-expressions"
+  },
+  "sidebar.rulesSidebar.doc.no-unused-private-class-members": {
+    "message": "no-unused-private-class-members",
+    "description": "The label for the doc item no-unused-private-class-members in sidebar rulesSidebar, linking to the doc no-unused-private-class-members"
+  },
+  "sidebar.rulesSidebar.doc.no-unused-vars": {
+    "message": "no-unused-vars",
+    "description": "The label for the doc item no-unused-vars in sidebar rulesSidebar, linking to the doc no-unused-vars"
+  },
+  "sidebar.rulesSidebar.doc.no-use-before-define": {
+    "message": "no-use-before-define",
+    "description": "The label for the doc item no-use-before-define in sidebar rulesSidebar, linking to the doc no-use-before-define"
+  },
+  "sidebar.rulesSidebar.doc.no-useless-constructor": {
+    "message": "no-useless-constructor",
+    "description": "The label for the doc item no-useless-constructor in sidebar rulesSidebar, linking to the doc no-useless-constructor"
+  },
+  "sidebar.rulesSidebar.doc.no-useless-default-assignment": {
+    "message": "no-useless-default-assignment",
+    "description": "The label for the doc item no-useless-default-assignment in sidebar rulesSidebar, linking to the doc no-useless-default-assignment"
+  },
+  "sidebar.rulesSidebar.doc.no-useless-empty-export": {
+    "message": "no-useless-empty-export",
+    "description": "The label for the doc item no-useless-empty-export in sidebar rulesSidebar, linking to the doc no-useless-empty-export"
+  },
+  "sidebar.rulesSidebar.doc.no-var-requires": {
+    "message": "no-var-requires",
+    "description": "The label for the doc item no-var-requires in sidebar rulesSidebar, linking to the doc no-var-requires"
+  },
+  "sidebar.rulesSidebar.doc.no-wrapper-object-types": {
+    "message": "no-wrapper-object-types",
+    "description": "The label for the doc item no-wrapper-object-types in sidebar rulesSidebar, linking to the doc no-wrapper-object-types"
+  },
+  "sidebar.rulesSidebar.doc.non-nullable-type-assertion-style": {
+    "message": "non-nullable-type-assertion-style",
+    "description": "The label for the doc item non-nullable-type-assertion-style in sidebar rulesSidebar, linking to the doc non-nullable-type-assertion-style"
+  },
+  "sidebar.rulesSidebar.doc.only-throw-error": {
+    "message": "only-throw-error",
+    "description": "The label for the doc item only-throw-error in sidebar rulesSidebar, linking to the doc only-throw-error"
+  },
+  "sidebar.rulesSidebar.doc.parameter-properties": {
+    "message": "parameter-properties",
+    "description": "The label for the doc item parameter-properties in sidebar rulesSidebar, linking to the doc parameter-properties"
+  },
+  "sidebar.rulesSidebar.doc.prefer-as-const": {
+    "message": "prefer-as-const",
+    "description": "The label for the doc item prefer-as-const in sidebar rulesSidebar, linking to the doc prefer-as-const"
+  },
+  "sidebar.rulesSidebar.doc.prefer-destructuring": {
+    "message": "prefer-destructuring",
+    "description": "The label for the doc item prefer-destructuring in sidebar rulesSidebar, linking to the doc prefer-destructuring"
+  },
+  "sidebar.rulesSidebar.doc.prefer-enum-initializers": {
+    "message": "prefer-enum-initializers",
+    "description": "The label for the doc item prefer-enum-initializers in sidebar rulesSidebar, linking to the doc prefer-enum-initializers"
+  },
+  "sidebar.rulesSidebar.doc.prefer-find": {
+    "message": "prefer-find",
+    "description": "The label for the doc item prefer-find in sidebar rulesSidebar, linking to the doc prefer-find"
+  },
+  "sidebar.rulesSidebar.doc.prefer-for-of": {
+    "message": "prefer-for-of",
+    "description": "The label for the doc item prefer-for-of in sidebar rulesSidebar, linking to the doc prefer-for-of"
+  },
+  "sidebar.rulesSidebar.doc.prefer-function-type": {
+    "message": "prefer-function-type",
+    "description": "The label for the doc item prefer-function-type in sidebar rulesSidebar, linking to the doc prefer-function-type"
+  },
+  "sidebar.rulesSidebar.doc.prefer-includes": {
+    "message": "prefer-includes",
+    "description": "The label for the doc item prefer-includes in sidebar rulesSidebar, linking to the doc prefer-includes"
+  },
+  "sidebar.rulesSidebar.doc.prefer-literal-enum-member": {
+    "message": "prefer-literal-enum-member",
+    "description": "The label for the doc item prefer-literal-enum-member in sidebar rulesSidebar, linking to the doc prefer-literal-enum-member"
+  },
+  "sidebar.rulesSidebar.doc.prefer-namespace-keyword": {
+    "message": "prefer-namespace-keyword",
+    "description": "The label for the doc item prefer-namespace-keyword in sidebar rulesSidebar, linking to the doc prefer-namespace-keyword"
+  },
+  "sidebar.rulesSidebar.doc.prefer-nullish-coalescing": {
+    "message": "prefer-nullish-coalescing",
+    "description": "The label for the doc item prefer-nullish-coalescing in sidebar rulesSidebar, linking to the doc prefer-nullish-coalescing"
+  },
+  "sidebar.rulesSidebar.doc.prefer-optional-chain": {
+    "message": "prefer-optional-chain",
+    "description": "The label for the doc item prefer-optional-chain in sidebar rulesSidebar, linking to the doc prefer-optional-chain"
+  },
+  "sidebar.rulesSidebar.doc.prefer-promise-reject-errors": {
+    "message": "prefer-promise-reject-errors",
+    "description": "The label for the doc item prefer-promise-reject-errors in sidebar rulesSidebar, linking to the doc prefer-promise-reject-errors"
+  },
+  "sidebar.rulesSidebar.doc.prefer-readonly": {
+    "message": "prefer-readonly",
+    "description": "The label for the doc item prefer-readonly in sidebar rulesSidebar, linking to the doc prefer-readonly"
+  },
+  "sidebar.rulesSidebar.doc.prefer-readonly-parameter-types": {
+    "message": "prefer-readonly-parameter-types",
+    "description": "The label for the doc item prefer-readonly-parameter-types in sidebar rulesSidebar, linking to the doc prefer-readonly-parameter-types"
+  },
+  "sidebar.rulesSidebar.doc.prefer-reduce-type-parameter": {
+    "message": "prefer-reduce-type-parameter",
+    "description": "The label for the doc item prefer-reduce-type-parameter in sidebar rulesSidebar, linking to the doc prefer-reduce-type-parameter"
+  },
+  "sidebar.rulesSidebar.doc.prefer-regexp-exec": {
+    "message": "prefer-regexp-exec",
+    "description": "The label for the doc item prefer-regexp-exec in sidebar rulesSidebar, linking to the doc prefer-regexp-exec"
+  },
+  "sidebar.rulesSidebar.doc.prefer-return-this-type": {
+    "message": "prefer-return-this-type",
+    "description": "The label for the doc item prefer-return-this-type in sidebar rulesSidebar, linking to the doc prefer-return-this-type"
+  },
+  "sidebar.rulesSidebar.doc.prefer-string-starts-ends-with": {
+    "message": "prefer-string-starts-ends-with",
+    "description": "The label for the doc item prefer-string-starts-ends-with in sidebar rulesSidebar, linking to the doc prefer-string-starts-ends-with"
+  },
+  "sidebar.rulesSidebar.doc.prefer-ts-expect-error": {
+    "message": "prefer-ts-expect-error",
+    "description": "The label for the doc item prefer-ts-expect-error in sidebar rulesSidebar, linking to the doc prefer-ts-expect-error"
+  },
+  "sidebar.rulesSidebar.doc.promise-function-async": {
+    "message": "promise-function-async",
+    "description": "The label for the doc item promise-function-async in sidebar rulesSidebar, linking to the doc promise-function-async"
+  },
+  "sidebar.rulesSidebar.doc.related-getter-setter-pairs": {
+    "message": "related-getter-setter-pairs",
+    "description": "The label for the doc item related-getter-setter-pairs in sidebar rulesSidebar, linking to the doc related-getter-setter-pairs"
+  },
+  "sidebar.rulesSidebar.doc.require-array-sort-compare": {
+    "message": "require-array-sort-compare",
+    "description": "The label for the doc item require-array-sort-compare in sidebar rulesSidebar, linking to the doc require-array-sort-compare"
+  },
+  "sidebar.rulesSidebar.doc.require-await": {
+    "message": "require-await",
+    "description": "The label for the doc item require-await in sidebar rulesSidebar, linking to the doc require-await"
+  },
+  "sidebar.rulesSidebar.doc.restrict-plus-operands": {
+    "message": "restrict-plus-operands",
+    "description": "The label for the doc item restrict-plus-operands in sidebar rulesSidebar, linking to the doc restrict-plus-operands"
+  },
+  "sidebar.rulesSidebar.doc.restrict-template-expressions": {
+    "message": "restrict-template-expressions",
+    "description": "The label for the doc item restrict-template-expressions in sidebar rulesSidebar, linking to the doc restrict-template-expressions"
+  },
+  "sidebar.rulesSidebar.doc.return-await": {
+    "message": "return-await",
+    "description": "The label for the doc item return-await in sidebar rulesSidebar, linking to the doc return-await"
+  },
+  "sidebar.rulesSidebar.doc.sort-type-constituents": {
+    "message": "sort-type-constituents",
+    "description": "The label for the doc item sort-type-constituents in sidebar rulesSidebar, linking to the doc sort-type-constituents"
+  },
+  "sidebar.rulesSidebar.doc.strict-boolean-expressions": {
+    "message": "strict-boolean-expressions",
+    "description": "The label for the doc item strict-boolean-expressions in sidebar rulesSidebar, linking to the doc strict-boolean-expressions"
+  },
+  "sidebar.rulesSidebar.doc.strict-void-return": {
+    "message": "strict-void-return",
+    "description": "The label for the doc item strict-void-return in sidebar rulesSidebar, linking to the doc strict-void-return"
+  },
+  "sidebar.rulesSidebar.doc.switch-exhaustiveness-check": {
+    "message": "switch-exhaustiveness-check",
+    "description": "The label for the doc item switch-exhaustiveness-check in sidebar rulesSidebar, linking to the doc switch-exhaustiveness-check"
+  },
+  "sidebar.rulesSidebar.doc.triple-slash-reference": {
+    "message": "triple-slash-reference",
+    "description": "The label for the doc item triple-slash-reference in sidebar rulesSidebar, linking to the doc triple-slash-reference"
+  },
+  "sidebar.rulesSidebar.doc.typedef": {
+    "message": "typedef",
+    "description": "The label for the doc item typedef in sidebar rulesSidebar, linking to the doc typedef"
+  },
+  "sidebar.rulesSidebar.doc.unbound-method": {
+    "message": "unbound-method",
+    "description": "The label for the doc item unbound-method in sidebar rulesSidebar, linking to the doc unbound-method"
+  },
+  "sidebar.rulesSidebar.doc.unified-signatures": {
+    "message": "unified-signatures",
+    "description": "The label for the doc item unified-signatures in sidebar rulesSidebar, linking to the doc unified-signatures"
+  },
+  "sidebar.rulesSidebar.doc.use-unknown-in-catch-callback-variable": {
+    "message": "use-unknown-in-catch-callback-variable",
+    "description": "The label for the doc item use-unknown-in-catch-callback-variable in sidebar rulesSidebar, linking to the doc use-unknown-in-catch-callback-variable"
+  }
+}

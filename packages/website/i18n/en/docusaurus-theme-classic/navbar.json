@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "typescript-eslint",
+    "description": "The title in the navbar"
+  },
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Rules": {
+    "message": "Rules",
+    "description": "Navbar item with label Rules"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.v8.57.2": {
+    "message": "v8.57.2",
+    "description": "Navbar item with label v8.57.2"
+  },
+  "item.label.Playground": {
+    "message": "Playground",
+    "description": "Navbar item with label Playground"
+  }
+}

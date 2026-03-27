@@ -1,0 +1,46 @@
+{
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Bluesky": {
+    "message": "Bluesky",
+    "description": "The label of footer link with label=Bluesky linking to https://bsky.app/profile/typescript-eslint.io"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discord.gg/FSxKq8Tdyg"
+  },
+  "link.item.label.Mastodon": {
+    "message": "Mastodon",
+    "description": "The label of footer link with label=Mastodon linking to https://fosstodon.org/@tseslint"
+  },
+  "link.item.label.Stack Overflow": {
+    "message": "Stack Overflow",
+    "description": "The label of footer link with label=Stack Overflow linking to https://stackoverflow.com/questions/tagged/typescript-eslint"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/typescript-eslint/typescript-eslint"
+  },
+  "link.item.label.Report issue": {
+    "message": "Report issue",
+    "description": "The label of footer link with label=Report issue linking to https://github.com/typescript-eslint/typescript-eslint/issues/new/choose"
+  },
+  "link.item.label.Open Collective": {
+    "message": "Open Collective",
+    "description": "The label of footer link with label=Open Collective linking to https://opencollective.com/typescript-eslint/contribute"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 typescript-eslint, Inc. Built with Docusaurus.",
+    "description": "The footer copyright"
+  },
+  "logo.alt": {
+    "message": "Deploys by Netlify",
+    "description": "The alt text of footer logo"
+  }
+}
