@@ -1,0 +1,10 @@
+{
+  "sourceUrl": "https://github.com/typescript-eslint/typescript-eslint",
+  "branch": "main",
+  "docusaurusRoot": "packages/website",
+  "configFile": "packages/website/docusaurus.config.mts",
+  "translateCommand": "pnpm exec docusaurus write-translations",
+  "buildCommand": "pnpm exec docusaurus build",
+  "buildOutput": "build",
+  "packageManager": "pnpm"
+}
