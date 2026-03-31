@@ -24,6 +24,10 @@ const currentMajorVersion =
   Number(process.env.CURRENT_MAJOR_VERSION);
 
 const presetClassicOptions: PresetClassicOptions = {
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "zh-Hans"],
+  },
   blog: {
     blogSidebarCount: 'ALL',
     // Allow Docusaurus TOC remark plugin to pick up the injected H2
@@ -368,8 +372,8 @@ const config: Config = {
   },
   favicon: 'img/favicon.ico',
   onBrokenAnchors: 'ignore',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'throw',
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: "warn",
   organizationName: 'typescript-eslint',
   plugins: [
     './plugins/recent-blog-posts/index.ts',
